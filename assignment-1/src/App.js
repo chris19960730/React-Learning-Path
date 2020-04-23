@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="App">
       <UserInput changed={switchUserNameHandler} >input the sentences here: </UserInput>
       <UserOutput username="Chris"></UserOutput>
       <UserOutput
